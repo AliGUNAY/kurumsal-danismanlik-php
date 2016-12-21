@@ -6,28 +6,6 @@
  * @since	Version 1.0.0
 **/
 
-	//* 301 Yönlendirme google eski link için | 18 Temmuz 2016 1 ay sonra bu kısmı kaldırın
-	$redirects = array(
-	   '/bireysel/contact/' 						=> 'iletisim',
-	   '/referanslar/okullar/' 						=> 'referanslar',
-	   '/bireysel/galeri/' 							=> 'galeri',
-	   '/bireysel/hakkimizda/' 						=> 'hakkimizda',
-	   '/konsept/index.php/yazili-basin/' 			=> 'basindabiz/yazili-basin-20',
-	   '/bireysel/yazili-basin/'		 			=> 'basindabiz/yazili-basin-20',
-	   '/bireysel/online-randevu/' 					=> '/',
-	   '/bireysel/referanslarimiz/okullar/' 		=> 'referanslar',
-	   '/konsept/index.php/news/0-11-yas-gelisimi/' => 'makaleler/detay/0---11-yas-gelisimi-27'
-	);
-	
-	if(isset($_SERVER['REQUEST_URI']) && isset($redirects[$_SERVER['REQUEST_URI']])) {
-		$loc = "http://www.skonseptdanismanlik.com/" . $redirects[$_SERVER['REQUEST_URI']];
-		header("HTTP/1.1 301 Moved Permanently");
-		header("Location: " . $loc);
-		exit();
-	}
-	//* 301 Yönlendirme
-	
-
 	require_once __DIR__.'/config.php';
 	
 	require_once(SYSTEM_FOLDER . '/themeController.php');
