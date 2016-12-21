@@ -1,0 +1,189 @@
+.kolon [class^="col-"] {
+border: 1px solid #ccc;
+border-radius: ;
+color: #333;
+font-size: 11px;
+margin-bottom: 10px;
+padding-bottom: 10px;
+padding-top: 45px;
+position: ;
+text-align: center;
+margin-left: 6%;
+}
+.kolon [class^="col-"]:before {
+display: block;
+content: '';
+position: absolute;
+width: 40px;
+height: 28px;
+background: #eee;
+left: 0;
+right: 0;
+top: 10px;
+margin: 0 auto 10px;
+border: 2px solid #ccc;
+}
+.kolon [class^="col-"]:hover {
+cursor: pointer;
+background: #f0f0f0;
+}
+
+.kolon .active {
+border-color: #61dbb2;
+border-width: 1px;
+}
+
+.kolon .col-two:before {
+box-shadow: inset 17px 0 0 #eee, inset 19px 0 0 #ccc;
+}
+
+.kolon .col-three:before {
+box-shadow: inset 11px 0 0 #eee, inset 13px 0 0 #ccc, inset 23px 0 0 #eee, inset 25px 0 0 #ccc;
+}
+
+.kolon .col-four:before {
+box-shadow: inset 8px 0 0 #eee, inset 10px 0 0 #ccc, inset 17px 0 0 #eee, inset 19px 0 0 #ccc, inset 26px 0 0 #eee, inset 28px 0 0 #ccc;
+}
+
+.kolon .col-cus-1:before {
+box-shadow: inset 17px 0 0 #eee, inset 19px 0 0 #ccc, inset 17px -11px 0 #eee, inset 19px -13px 0 #ccc;
+}
+
+.kolon .col-cus-2:before {
+box-shadow: inset -17px 0 0 #eee, inset -19px 0 0 #ccc, inset -17px -11px 0 #eee, inset -19px -13px 0 #ccc;
+}
+
+#loading {
+    background: rgba(53, 50, 53, 0.42) url("img/page-bg.png") repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	z-index:9999;
+	display:none
+}
+.bokeh {
+    border: 0.01em solid rgba(150, 150, 150, 0.1);
+    border-radius: 50%;
+    font-size: 100px;
+    height: 1em;
+    list-style: outside none none;
+    margin: 0 auto;
+    position: relative;
+    top: 35%;
+    width: 1em;
+    z-index: 2147483647;
+}
+.bokeh li {
+    border-radius: 50%;
+    height: 0.2em;
+    position: absolute;
+    width: 0.2em;
+}
+.bokeh li:nth-child(1) {
+    animation: 1.13s linear 0s normal none infinite running rota, 3.67s ease-in-out 0s alternate none infinite running opa;
+    background: #00c176 none repeat scroll 0 0;
+    left: 50%;
+    margin: 0 0 0 -0.1em;
+    top: 0;
+    transform-origin: 50% 250% 0;
+}
+.bokeh li:nth-child(2) {
+    animation: 1.86s linear 0s normal none infinite running rota, 4.29s ease-in-out 0s alternate none infinite running opa;
+    background: #ff003c none repeat scroll 0 0;
+    margin: -0.1em 0 0;
+    right: 0;
+    top: 50%;
+    transform-origin: -150% 50% 0;
+}
+.bokeh li:nth-child(3) {
+    animation: 1.45s linear 0s normal none infinite running rota, 5.12s ease-in-out 0s alternate none infinite running opa;
+    background: #fabe28 none repeat scroll 0 0;
+    bottom: 0;
+    left: 50%;
+    margin: 0 0 0 -0.1em;
+    transform-origin: 50% -150% 0;
+}
+.bokeh li:nth-child(4) {
+    animation: 1.72s linear 0s normal none infinite running rota, 5.25s ease-in-out 0s alternate none infinite running opa;
+    background: #88c100 none repeat scroll 0 0;
+    margin: -0.1em 0 0;
+    top: 50%;
+    transform-origin: 250% 50% 0;
+}
+@keyframes opa {
+12% {
+    opacity: 0.8;
+}
+19.5% {
+    opacity: 0.88;
+}
+37.2% {
+    opacity: 0.64;
+}
+40.5% {
+    opacity: 0.52;
+}
+52.7% {
+    opacity: 0.69;
+}
+60.2% {
+    opacity: 0.6;
+}
+66.6% {
+    opacity: 0.52;
+}
+70% {
+    opacity: 0.63;
+}
+79.9% {
+    opacity: 0.6;
+}
+84.2% {
+    opacity: 0.75;
+}
+91% {
+    opacity: 0.87;
+}
+}
+
+@keyframes rota {
+100% {
+    transform: rotate(360deg);
+}
+}
+
+}
+
+input[type=checkbox], input[type=radio] {
+    display: none;
+}
+
+#photoReset {
+	display:none !important
+}
+
+.menu-anchor {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+.dd3-handle {
+    left: 28px !important;
+}
+
+.dd3-content {
+	padding: 5px 10px 5px 61px !important;
+}
+
+.dd-handle {
+	z-index:99
+}
+
+.dd3-content:hover {
+	color: #fff;
+    background: rgb(242, 243, 243);
+    border: 0px solid #64bb5d;
+}

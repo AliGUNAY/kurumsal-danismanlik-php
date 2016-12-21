@@ -1,0 +1,12 @@
+{
+    "girisbasarili": "Giriş Başarılı Lütfen Bekleyiniz!",
+    "guvenlik": "Güvenlik Ağına Takıldınız!",
+    "girishatali": "Giriş bilgileri hatali lütfen tekrar deneyiniz!",
+    "formbos": "Lütfen tüm alanları doldurunuz!",
+	"sistemhatasi": "Sistem Hatası oluştu lütfen panel geliştiricisine bildiriniz.",
+	"guncelleme": "Tüm ayarlar güncellendi!",
+	"guncellemetekrar": "Sayfada bi degişiklik yapılmadı!",
+	"formverilerikontrol": "Lütfen kutulardakı verileri tekrar kontrol ediniz!",
+	"kayithatali": "Kayıt sırasında hatalar meydana geldi!",
+	"silmebasarili": "Silme işleme başarılı"
+}

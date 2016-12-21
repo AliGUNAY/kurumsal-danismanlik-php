@@ -1,0 +1,19 @@
+RewriteEngine On
+Options -indexes
+RewriteCond %{HTTP_HOST} !^www\.skonseptdanismanlik\.com
+RewriteRule (.*) http://www.skonseptdanismanlik.com/$1 [R=301,L]
+
+RewriteRule ^basindabiz/detay/(.*)-(.*)$ index.php?do=basindabiz&sef=$1&id=$2&detay=1 [QSA,L]
+RewriteRule ^basindabiz/(.*)-(.*)$ index.php?do=basindabiz&sef=$1&id=$2&detay=0 [QSA,L]
+RewriteRule ^galeri/detay/(.*)-(.*)$ index.php?do=galeri&sef=$1&id=$2 [QSA,L]
+RewriteRule ^makaleler/detay/(.*)-(.*)$ index.php?do=makaleler&sef=$1&id=$2 [QSA,L]
+RewriteRule ^hizmetlerimiz/detay/(.*)-(.*)$ index.php?do=hizmetlerimiz&sef=$1&id=$2&detay=1 [QSA,L]
+RewriteRule ^hizmetlerimiz/(.*)-(.*)$ index.php?do=hizmetlerimiz&sef=$1&id=$2&detay=0 [QSA,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php?do=$1 [QSA,L] 
+
+ErrorDocument 404 /404

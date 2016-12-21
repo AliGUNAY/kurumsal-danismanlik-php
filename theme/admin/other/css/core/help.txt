@@ -1,0 +1,6 @@
+these files are compiled WITHOUT the main.less file which holds all the styles
+uniquely used for documentation and previewing purposes.
+
+These should be used in your projects when you do NOT NEED the styles that come with main.less.
+
+The preview will not work properly without these styles.
