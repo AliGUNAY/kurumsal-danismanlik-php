@@ -13,10 +13,10 @@ skonseptdanismanlik.com php script
   
   
 ### Site Adresi
-  define("SITE_URL",			"http://www.");
+  	define("SITE_URL",			"http://www.");
 
 ### Mail Ayarları
-  //* Mail Ayarları
+  	//* Mail Ayarları
 	define("MAIL_TIPI",			'smtp');
 	define("MAIL_SERVER",		'mail.....com');
 	define("MAIL_PORT",			25);
