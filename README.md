@@ -27,7 +27,11 @@ skonseptdanismanlik.com php script
  ## SQL Yükleme
   Database oluşturdukdan sonra anadizindeki "goxskons_iwt.sql.gz" dosyayı yükleyiniz.
   
+  ## Admin Şifresi
   
+  	siteadresi.com/admin 
+	Kullanıcı Adı: admin
+	Şifre: tasarlar
   
   
   Scriptin ödemesini alamadıgım için ücretsiz olarak paylaşıyorum sorularınız olursa Issues kısmından sorabilirsiniz.
