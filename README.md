@@ -1,11 +1,6 @@
 # kurumsal-danismanlik-php
 skonseptdanismanlik.com php script
 
-## Ekran Görüntüsü
-![alt tag](http://i.hizliresim.com/Pn02k8.png)
-![alt tag](http://i.hizliresim.com/Pn02Q6.png)
-![alt tag](http://i.hizliresim.com/Wg08bP.png)
-
 ## Kurulum
 "config.php" dosyasındaki database site ayarları ve mail ayarlarını kendinize göre düzenleyiniz:
 
@@ -38,6 +33,11 @@ skonseptdanismanlik.com php script
 	Kullanıcı Adı: admin
 	Şifre: tasarlar
   
+  
+  ## Ekran Görüntüsü
+![alt tag](http://i.hizliresim.com/Pn02k8.png)
+![alt tag](http://i.hizliresim.com/Pn02Q6.png)
+![alt tag](http://i.hizliresim.com/Wg08bP.png)
   
   Scriptin ödemesini alamadıgım için ücretsiz olarak paylaşıyorum sorularınız olursa Issues kısmından sorabilirsiniz.
 
