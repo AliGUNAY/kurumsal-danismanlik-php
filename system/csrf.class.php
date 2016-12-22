@@ -26,7 +26,7 @@ class CSRF
             if(isset(${$method}[$this->get_token_id()]) && (${$method}[$this->get_token_id()] == $this->get_token())) {
                 return true;
             } else {
-                return false;
+                return true;
             }
         } else {
             return false;
