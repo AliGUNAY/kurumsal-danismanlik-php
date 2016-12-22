@@ -1,4 +1,5 @@
 <?
+session_start();
 /**
  * @author	iwt web tasrım
  * @copyright	Copyright (c) 2016, Developer Ahmet ÖZALP (www.ahmetozalp.net)
