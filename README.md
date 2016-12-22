@@ -35,3 +35,7 @@ skonseptdanismanlik.com php script
   
   
   Scriptin ödemesini alamadıgım için ücretsiz olarak paylaşıyorum sorularınız olursa Issues kısmından sorabilirsiniz.
+
+
+
+
