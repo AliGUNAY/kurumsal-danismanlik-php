@@ -3,8 +3,6 @@ skonseptdanismanlik.com php script
 
 Scriptin ödemesini alamadıgım için ücretsiz olarak paylaşıyorum sorularınız olursa Issues kısmından sorabilirsiniz.
 
-https://travis-ci.org/ahmetozalp/kurumsal-danismanlik-php.svg?branch=master
-
 ## Kurulum
 "config.php" dosyasındaki database site ayarları ve mail ayarlarını kendinize göre düzenleyiniz:
 
