@@ -3,8 +3,7 @@ skonseptdanismanlik.com php script
 
 Scriptin ödemesini alamadıgım için ücretsiz olarak paylaşıyorum sorularınız olursa Issues kısmından sorabilirsiniz.
 
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/ahmetozalp" data-style="mega" data-count-href="/ahmetozalp/followers" data-count-api="/users/ahmetozalp#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @ahmetozalp on GitHub">Follow @ahmetozalp</a>
+https://travis-ci.org/ahmetozalp/kurumsal-danismanlik-php.svg?branch=master
 
 ## Kurulum
 "config.php" dosyasındaki database site ayarları ve mail ayarlarını kendinize göre düzenleyiniz:
