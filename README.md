@@ -2,6 +2,7 @@
  Ücretini alamadıgım için ihtiyacı olan arakdaşlara burdan dagıtmak istedim.İşinizi goruyorsa üstteki STAR butonuna ve benı takip ederek yakında tekrar yayınlayacagım kodlarada ulaşabilirsiniz.
  
  ### Kullandıklarım
+ 
  	PHP SQL OOP CLASS
  	PHP Smarty Temlate (smarty.class http://www.smarty.net/)
  	CSRF Form Güvenligi (csrf.class http://www.wikihow.com/Prevent-Cross-Site-Request-Forgery-(CSRF)-Attacks-in-PHP )
